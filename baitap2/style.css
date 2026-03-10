@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+}
+
+/* MENU */
+
+.menu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 80px;
+    background:#111;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+.menu nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:500;
+}
+
+.menu nav a:hover{
+    color:#f37021;
+}
+
+/* SECTION */
+
+.section-title{
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+/* CARD */
+
+.card{
+    border:none;
+    border-radius:10px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card img{
+    height:280px;
+    object-fit:cover;
+}
+
+/* PRICE */
+
+.price{
+    color:#e63946;
+    font-weight:bold;
+    font-size:18px;
+}
+
+/* BUTTON */
+
+.buy-btn{
+    background:#111;
+    color:white;
+    border:none;
+    padding:8px 18px;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+.buy-btn:hover{
+    background:#f37021;
+}
