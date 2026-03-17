@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <title>Quản lý phòng - Travelcon</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h2>Book đi nào. Mãi bên nhau bạn nhé</h2>
+            <p>Top nơi ở sang chảnh đón hè đã sẵn sàng trên Travelcon. Book ngay đi nè</p>
+        </div>
+        <div class="btn-group">
+            <button id="showRoombtn" class="btn btn-red">Hiển Thị</button>
+            <button id="addRoomBtn" class="btn btn-orange">Thêm mới phòng</button>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <div class="input-group">
+            <label>Tên phòng</label>
+            <input id="name_room" type="text" placeholder="Tên phòng">
+        </div>
+
+        <div class="input-group">
+            <label>Mô tả phòng</label>
+            <input id="describe_room" type="text" placeholder="Mô tả phòng">
+        </div>
+
+        <div class="input-group">
+            <label>Giá</label>
+            <input id="quantity" type="text" placeholder="Giá phòng">
+        </div>
+
+        <div class="input-group">
+            <label>hình</label>
+            <label class="upload-btn">
+                <input id="image" type="file" accept="image/*" hidden>
+                <span>Chọn hình ảnh</span>
+            </label>
+        </div>
+    </div>
+    <div id="roomContainer" class="room-grid"></div>
+    <script src="as.js"></script>
+</body>
+
+</html>

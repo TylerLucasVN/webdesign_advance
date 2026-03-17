@@ -1,0 +1,278 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #f37021;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 25px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: #ff0000;
+    border: 2px solid #0056b3;
+}
+
+.btn-orange {
+    background-color: #ff6600;
+    border: 1px solid #ddd;
+}
+
+.form-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.upload-btn {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.image-picker {
+    width: 150px;
+    height: 100px;
+    border: 1px solid #f37021;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f37021;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+
+.image-picker i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.room-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.room-card {
+    min-height: max-content;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.room-img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.room-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.no-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 14px;
+    background: linear-gradient(135deg, #eee, #ddd);
+}
+
+.heart-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #ff5722;
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.heart-icon:hover {
+    color: whitesmoke;
+
+}
+
+.room-body {
+    padding: 15px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.stars {
+    color: #ff5722;
+}
+
+.review {
+    color: #ff5722;
+}
+
+.room-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.room-type {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.label {
+    color: #ff5722;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.status-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.book-btn {
+    width: 100%;
+    padding: 12px;
+    background: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.book-btn:hover, .btn-orange:hover,.btn-red:hover {
+    color: black;
+    background: whitesmoke;
+}
+
+.room-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.room-price {
+    color: orange;
+    font-weight: bold;
+}
+
+.book-btn {
+    width: 100%;
+    padding: 8px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.upload-btn {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.upload-btn:hover {
+    background-color: #fff3ee;
+}
